@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic order</title>
+</head>
+<body>
+    <table style="border: 1px solid black; background-color: lightgrey;">
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding-right: 20px;"></td>
+                <td><a href="#" >Home</a></td>
+                <td style="padding-right: 80px;">|</td>
+                <td><a href="#" >Generate</a></td>
+                <td style="padding-right: 80px;">|</td>
+                <td><a href="#" >Transaction History</a></td>
+                <td style="padding-right: 80px;">|</td>
+                <td><a href="#" >Policy</a></td>
+                <td style="padding-right: 80px;">|</td>
+                <td style="padding-right: 80px;"><a href="#" >Logout</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <fieldset style="background-color: lightgrey;">
+    <table widht="100%">
+        <tbody>
+            <tr colspan="2">
+                <td>
+                <table>
+                <thead></thead>
+                <tbody border="1">
+                <p style="border: 1px solid black; width: 150px; height: 150px; background-color:white;"></p>
+                </tbody>
+                </table>
+                <form action="#" method="POST" enctype="multipart/form-data">
+                <label> Upload Picture <input type="file" name="photo"></label></form>
+                </td>
+                <td colspan="2" style="text-align: left;">
+                    <label style="padding-right: 30px;" for="input-name">Title Here :</label>
+                    <input id="input-name" type="text">
+                    <br><br>
+                    <label style="padding-right: 30px; " for="delivery">Description :</label>
+                    <textarea id="delivery" cols="30" rows="10" maxlength="400"></textarea>
+                    <br><br>
+                    <label style="padding-right: 30px;" for="input-name">Account Number :</label>
+                    <input id="input-name" type="text">
+                    <br><br>
+                        <label for="Bank">Bank :</label>
+                        <select name="" id="Bank">
+                            <option value="BCA">BCA</option>
+                            <option value="BNI">BNI</option>
+                            <option value="MANDIRI">MANDIRI</option>
+                            <option value="BSI">BSI</option>
+                        </select>
+                    <br><br>
+                    <label style="padding-right: 30px;" for="input-name">Account Holder :</label>
+                    <input id="input-name" type="text">
+                    <br><br>
+                    <label style="padding-right: 30px;" for="input-name">Transaction :</label>
+                    <input style="width: 30px;" id="input-name" type="number">
+                    <br>
+                    <b>* if the transaction is for 3 person, choose 3 form the drop-down list</b>
+                    <br>
+                    <input id="sss" type="checkbox">
+                    <label style="color: green;" for="sss">Send to Mobile Phone</label>
+                    <br>
+                    <input id="aaa" type="checkbox">
+                    <label style="color: green;" for="aaa">Send to Email</label>
+                    <label style="padding-right: 30px;" for="input-name">Send to Mobile Phone :</label>
+                    <input id="input-name" type="text">
+                    <br><br>
+                    <label style="padding-right: 30px;" for="input-name">Send to Email :</label>
+                    <input id="input-name" type="text">
+                    <br>
+                    	<br>
+						<input type="submite" value="Generat Nabr Link" style="background-color: green;">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    </fieldset>
+</body>
+</html>
